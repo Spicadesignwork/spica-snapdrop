@@ -3,6 +3,7 @@
 :root {
     --icon-size: 24px;
     --primary-color: #6F00FF;
+    --star-color: #ffffff;
     --peer-width: 120px;
     color-scheme: light dark;
 }
@@ -697,14 +698,18 @@ body {
 /* Dark theme colors */
 body.dark-theme {
     --text-color: #eee;
-    --bg-color: #121212;
+    --bg-color: #000000;
     --bg-color-secondary: #333;
     --primary-color: #90FF00;
+    --star-color: #000000;
 }
 
-icon-spica-color {
-    fill: var(--primary-color);
-    color: var(--primary-color);
+.icon-spica-color {
+    fill:var(--primary-color);
+}
+
+.icon-star-color {
+    fill:var(--star-color);
 }
 
 /* Colored Elements */
