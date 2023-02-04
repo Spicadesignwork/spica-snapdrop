@@ -1,8 +1,8 @@
 {
-  "name": "snapdrop",
+  "name": "spicashare",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "spica's version of snapdrop for internal use",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

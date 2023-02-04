@@ -2,7 +2,7 @@
 
 :root {
     --icon-size: 24px;
-    --primary-color: #4285f4;
+    --primary-color: #6F00FF;
     --peer-width: 120px;
     color-scheme: light dark;
 }
@@ -699,6 +699,12 @@ body.dark-theme {
     --text-color: #eee;
     --bg-color: #121212;
     --bg-color-secondary: #333;
+    --primary-color: #90FF00;
+}
+
+icon-spica-color {
+    fill: var(--primary-color);
+    color: var(--primary-color);
 }
 
 /* Colored Elements */
